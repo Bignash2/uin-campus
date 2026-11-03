@@ -1,9 +1,0 @@
-# ninja log v6
-681	727	1793743127950826032	uin-campus	e8b68ffd418ee5d6
-2	681	1793743127272880458	CMakeFiles/uin-campus.dir/app/main.cpp.o	64931d3732a13d43
-171	197	1793743127442037959	libuincampus_core.a	b162fb0ece812611
-1	171	1793743127271821681	CMakeFiles/uincampus_core.dir/src/version.cpp.o	758898bfbd7511a8
-38	220	1793745603878577453	CMakeFiles/uincampus_core.dir/src/version.cpp.o	758898bfbd7511a8
-220	241	1793745604061196017	libuincampus_core.a	b162fb0ece812611
-39	679	1793745603879577471	CMakeFiles/uin-campus.dir/app/main.cpp.o	64931d3732a13d43
-679	732	1793745604519589460	uin-campus	e8b68ffd418ee5d6
