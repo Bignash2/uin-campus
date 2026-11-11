@@ -24,17 +24,17 @@ Mention mentionPour(double note) {
 }
 
 std::string_view libelle(Mention m) {
-    using enum Mention;
     switch (m) {
-        case Ajourne:   return "Ajourne";
-        case Passable:  return "Passable";
-        case AssezBien: return "Assez bien";
-        case Bien:      return "Bien";
-        case TresBien:  return "Tres bien";
+        case Mention::Ajourne:   return "Ajourne";
+        case Mention::Passable:  return "Passable";
+        case Mention::AssezBien: return "Assez bien";
+        case Mention::Bien:      return "Bien";
+        case Mention::TresBien:  return "Tres bien";
     }
     return "Inconnue";
 }
 
+// Exercice 6 : lecture robuste d'un entier dans [min, max]
 int lireEntier(std::string_view invite, int min, int max) {
     while (true) {
         std::cout << invite;
